@@ -80,23 +80,23 @@ const ContactPage = () => {
 
   const locations = [
     {
-      city: "New York",
-      address: "123 Business Avenue, NY 10001",
-      phone: "+1 (555) 123-4567",
+      city: "Harare",
+      address: "123 Main Street, Harare 00100",
+      phone: "+263 78 594 8128",
       email: "nyc@vakundi.com",
       hours: "Mon-Fri: 9AM-6PM"
     },
     {
-      city: "London",
-      address: "456 Finance Street, London EC4M 7JU",
-      phone: "+44 20 7123 4567",
+      city: "Masvingo",
+      address: "456 Park Avenue, Masvingo 00200",
+      phone: "+263 78 594 8128",
       email: "london@vakundi.com",
       hours: "Mon-Fri: 9AM-6PM"
     },
     {
-      city: "Singapore",
-      address: "789 Market Road, Singapore 048620",
-      phone: "+65 6789 0123",
+      city: "Victoria Falls",
+      address: "789 Elm Street, Victoria Falls 00300",
+      phone: "+263 78 594 8128",
       email: "singapore@vakundi.com",
       hours: "Mon-Fri: 9AM-6PM"
     }
@@ -131,7 +131,7 @@ const ContactPage = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 -mt-20">
             {[
-              { icon: <Phone />, title: "Call Us", info: "+1 (555) 123-4567" },
+              { icon: <Phone />, title: "Call Us", info: "+263 78 594 8128" },
               { icon: <Mail />, title: "Email Us", info: "contact@vakundi.com" },
               { icon: <MessageCircle />, title: "Live Chat", info: "Available 24/7" }
             ].map((method, index) => (
