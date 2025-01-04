@@ -83,21 +83,21 @@ const ContactPage = () => {
       city: "Harare",
       address: "123 Main Street, Harare 00100",
       phone: "+263 78 594 8128",
-      email: "nyc@vakundi.com",
+      email: "harare@vakundi.com",
       hours: "Mon-Fri: 9AM-6PM"
     },
     {
       city: "Masvingo",
       address: "456 Park Avenue, Masvingo 00200",
       phone: "+263 78 594 8128",
-      email: "london@vakundi.com",
+      email: "masvingo@vakundi.com",
       hours: "Mon-Fri: 9AM-6PM"
     },
     {
       city: "Victoria Falls",
       address: "789 Elm Street, Victoria Falls 00300",
       phone: "+263 78 594 8128",
-      email: "singapore@vakundi.com",
+      email: "vicfalls@vakundi.com",
       hours: "Mon-Fri: 9AM-6PM"
     }
   ];
